@@ -22,7 +22,7 @@
                 <option value="{{ $batch->id }}">{{ $batch->name }}</option>
             @endforeach
         </select>
-        <label>Join Date</label>
+        <label>Join_Date</label>
         <input type="date" name="join_date" class="form-control">
         <label>Fee</label>
         <input type="number" name="fee" class="form-control">
