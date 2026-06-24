@@ -1,0 +1,30 @@
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: my-laravel-app
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+      
+      - ./.docker/apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
+    working_dir: /var/www/html
+    depends_on:
+      - db
+ 
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: laravel_app
+      MYSQL_USER: laravel
+      MYSQL_PASSWORD: secret
+    ports:
+      - "3307:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+
+volumes:
+  dbdata:
