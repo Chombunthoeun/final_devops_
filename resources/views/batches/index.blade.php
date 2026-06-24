@@ -15,7 +15,7 @@
             <tr>
                 <th>#</th>
                 <th>Batch Name</th>
-                <th>Course</th>
+                <th>Courses</th>
                 <th>Start Date</th>
                 <th>End Date</th>
                 <th>Time</th>
