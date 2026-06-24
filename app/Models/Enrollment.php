@@ -11,7 +11,7 @@ class Enrollment extends Model
 {
     use HasFactory;
 
-    protected $table = 'enrollment';
+    protected $table = 'enrollments';
 
     protected $fillable = [
         'enroll_no',
