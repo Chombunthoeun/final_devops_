@@ -9,7 +9,7 @@ use App\Models\Enrollment;
 use App\Models\Student;
 use App\Models\Batch;
 
-class EnrollmentController extends Controller
+class EnrollmentController extends Controllers
 {
     public function index(): View
     {
