@@ -3,7 +3,7 @@
 
 <div class="card">
     <div class="card-header">
-        <h4>Batches</h4>
+        <h4>Batchess</h4>
     </div>
     <div class="card-body">
         <form action="{{ url('batches') }}" method="POST">

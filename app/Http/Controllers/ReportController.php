@@ -9,7 +9,7 @@ use Barryvdh\DomPDF\Facade\Pdf; // 1. Import the Facade here
 
 class ReportController extends Controller
 {
-    public function pdf($pid)
+    public function pdf($pids)
     {
         $payment = Payment::find($pid);
         if (!$payment) { return "Payment not found"; }
