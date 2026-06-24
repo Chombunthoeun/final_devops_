@@ -8,7 +8,7 @@
     <div class="card-body">
         <form action="{{ url('enrollments') }}" method="POST">
         @csrf
-        <label>Enroll No</label>
+        <label>Enroll_No</label>
         <input type="text" name="enroll_no" class="form-control">
         <label>Student</label>
         <select name="student_id" class="form-control">
