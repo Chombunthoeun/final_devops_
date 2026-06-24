@@ -8,7 +8,7 @@ use App\Models\Enrollment;
 
 class PaymentController extends Controller
 {
-    public function index()
+    public function indexs()
     {
         $payments = Payment::with('enrollments')->get();
         return view('payments.index', compact('payments'));
