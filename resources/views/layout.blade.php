@@ -39,7 +39,7 @@
 </head>
 <body>
     <nav class="navbar navbar-light bg-light px-3">
-        <span class="navbar-brand mb-0 h1">School Management Systems</span>
+        <span class="navbar-brand mb-0 h1">School Management System</span>
     </nav>
     <div class="sidebar">
         <a class="active" href="#">Home</a>
