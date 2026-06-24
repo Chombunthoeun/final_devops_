@@ -22,7 +22,7 @@
         }
 
         .sidebar a.active {
-            background-color: #04AA6D;
+            background-color: #073e2a;
             color: white;
         }
 
