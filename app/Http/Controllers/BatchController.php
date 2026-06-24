@@ -13,7 +13,7 @@ class BatchController extends Controller
 {
     public function index(): View
     {
-        $batches = Batch::with('course')->get();
+        $batches = Batch::with('courses')->get();
         return view('batches.index', compact('batches'));
     }
 
