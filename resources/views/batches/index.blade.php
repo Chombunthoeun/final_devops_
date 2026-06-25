@@ -3,7 +3,7 @@
 
 <div class="card">
     <div class="card-header">
-        <h2>Batches Application</h2>
+        <h2>Batches Applications</h2>
     </div>
     <div class="card-body">
         <a href="{{ url('batches/create') }}"
