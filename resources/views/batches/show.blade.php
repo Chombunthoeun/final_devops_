@@ -3,7 +3,7 @@
 
 <div class="card">
     <div class="card-header">
-        <h4>Batch Details</h4>
+        <h4>Batch Detail</h4>
     </div>
     <div class="card-body">
         <h5>
