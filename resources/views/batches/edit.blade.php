@@ -3,7 +3,7 @@
 
 <div class="card">
     <div class="card-header">
-        <h4>Edit Batches</h4>
+        <h4>Edit Batche</h4>
     </div>
     <div class="card-body">
         <form action="{{ url('batches/' . $batch->id) }}"
